@@ -118,7 +118,7 @@ main{
 
 .main-izquierda .texto-izquierda-main{
     background-color:  rgb(221, 221, 221);
-    max-width: 55%;
+    max-width: 65%;
     margin: 0;
     text-align: center;
     margin-left: 5rem;
@@ -127,9 +127,9 @@ main{
 }
 .main-izquierda .texto-izquierda-main .texto-titulo{
     background-color: rgb(221, 221, 221);
-    font-size: 1.4em;
+    font-size: 2em;
     line-height: 2.5rem;
-    transform: scaleY(1.5);
+    text-align: start;
     
 }
 
@@ -138,10 +138,11 @@ main{
     background-color: rgb(221, 221, 221);
     font-size: 1em;
     color: gray;
-    font-size: 1.2rem;
-    padding-left: 1rem;
+    font-size: 1em;
+    
     transform: scaleY(1.3);
     margin-top: 1rem;
+    text-align: start;
 }
 
 .main-izquierda img{
@@ -279,3 +280,160 @@ main{
 }
 
 
+/* Your existing CSS styles go here */
+
+/* Add responsive styles for tablets, netbooks, and desktops */
+@media (min-width: 768px) {
+    /* Increase font size for larger screens */
+    h2 {
+        font-size: 2.5em;
+    }
+    
+    p {
+        font-size: 1.2em;
+    }
+    
+    /* Adjust header elements for larger screens */
+    header {
+        height: 12vh;
+    }
+    
+    .img-logo {
+        max-width: 80px;
+        margin-bottom: 10px;
+    }
+    
+    .img-menu {
+        max-width: 40px;
+    }
+    
+    /* Adjust main column for larger screens */
+    .col-md-6 {
+        width: 50%;
+    }
+    
+    .img-main {
+        max-width: 100%;
+    }
+    
+    /* Center-align text in the right column */
+    .bg-light.p-4 {
+        text-align: center;
+    }
+    
+    /* Remove border-bottom for larger screens */
+    .border-bottom {
+        border-bottom: none;
+    }
+    
+    /* Adjust button styles for larger screens */
+    .btn-block {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+
+/* Your existing CSS styles go here */
+
+/* Add responsive styles for 1920x1080 screens */
+@media (min-width: 1920px) {
+    /* Increase font size and adjust layout for larger screens */
+    h2 {
+        font-size: 3em;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+
+    /* Adjust header elements for larger screens */
+    header {
+        height: 12vh;
+    }
+
+    .img-logo {
+        max-width: 80px;
+        margin-bottom: 10px;
+    }
+
+    .img-menu {
+        max-width: 40px;
+    }
+
+    /* Adjust main column for larger screens */
+    .col-md-6 {
+        width: 50%;
+    }
+
+    .img-main {
+        max-width: 100%;
+    }
+
+    /* Center-align text in the right column */
+    .bg-light.p-4 {
+        text-align: center;
+    }
+
+    /* Remove border-bottom for larger screens */
+    .border-bottom {
+        border-bottom: none;
+    }
+
+    /* Adjust button styles for larger screens */
+    .btn-block {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+/* Add responsive styles for 1024x600 screens */
+@media (max-width: 1024px) {
+    /* Reduce font size and adjust layout for smaller screens */
+    h2 {
+        font-size: 2.5em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    /* Adjust header elements for smaller screens */
+    header {
+        height: 10vh;
+    }
+
+    .img-logo {
+        max-width: 60px;
+        margin-bottom: 5px;
+    }
+
+    .img-menu {
+        max-width: 30px;
+    }
+
+    /* Adjust main column for smaller screens */
+    .col-md-6 {
+        width: 100%;
+    }
+
+    .img-main {
+        max-width: 100%;
+    }
+
+    /* Center-align text in the right column */
+    .bg-light.p-4 {
+        text-align: center;
+    }
+
+    /* Remove border-bottom for smaller screens */
+    .border-bottom {
+        border-bottom: none;
+    }
+
+    /* Adjust button styles for smaller screens */
+    .btn-block {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
