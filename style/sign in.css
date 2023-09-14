@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img{
+    width: 300px;
+    height: 400px;
+}
+body{
+    background: linear-gradient(to right, rgb(221, 221, 221)  40%,rgb(244, 244, 244) 40%);
+}
+
+/*Header*/
+
+
+
+header{
+    background: linear-gradient(to right, rgb(221, 221, 221)  40%,rgb(244, 244, 244) 40%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+
+    height: 12vh;
+}
+
+.parte-izquierda{
+    flex-basis: 40%;
+    
+}
+
+.parte-derecha{
+    flex-basis: 50%;
+    
+}
+
+.parte-derecha-extrema{
+    flex-basis: 10%;
+    background-color: rgb(244, 244, 244);
+}
+
+.menu{
+    background-color: rgb(244, 244, 244);
+}
+
+.menu .elemento-izquierda img{
+    margin-left: 6rem;
+    border-radius: 40%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    border: 0px solid white;
+    line-height: 100px;
+}
+
+.menu .elemento-izquierda img{
+    width: 50px;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.menu .elemento-izquierda h1{
+    margin-left: 2rem;
+    font-size: 2.5em;
+    
+    font-family: 'Lobster Two', cursive;
+    
+}
+
+.elemento-izquierda{
+    display: flex;
+    align-items: center;
+}
+
+.parte-derecha-extrema img{
+    margin-left: 3rem;
+    font-size: 75px;
+    width: 50px;
+    height: auto;
+}
+
+/*Header Finalizado*/
+
+
+/*Main*/
+
+main{
+    display: flex;
+    
+}
+
+.main-derecha{
+    flex-basis: 60%;
+    background-color: rgb(244, 244, 244);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Izquierda main*/
+.main-izquierda{
+    display: flex;
+    flex-basis: 40%;
+    max-width: 40%;
+    
+    overflow: hidden;
+    flex-direction: column;
+    background-color: rgb(221, 221, 221);
+
+    
+}
+
+
+.main-izquierda .texto-izquierda-main{
+    background-color:  rgb(221, 221, 221);
+    max-width: 55%;
+    margin: 0;
+    text-align: center;
+    margin-left: 5rem;
+    margin-top: 4.5rem;
+    
+}
+.main-izquierda .texto-izquierda-main .texto-titulo{
+    background-color: rgb(221, 221, 221);
+    font-size: 1.4em;
+    line-height: 2.5rem;
+    transform: scaleY(1.5);
+    
+}
+
+.main-izquierda .texto-izquierda-main .texto-p{
+    margin-top: 0.5rem;
+    background-color: rgb(221, 221, 221);
+    font-size: 1em;
+    color: gray;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    transform: scaleY(1.3);
+    margin-top: 1rem;
+}
+
+.main-izquierda img{
+    width: 100%;
+    height: auto;
+}
+
+/*Derecha main*/
+
+
+
+
+.contenedor-derecha{
+    background-color: rgb(244, 244, 244);
+    
+    margin-right: 13rem;
+    width: 42%;
+    margin-bottom: 13.5rem;
+}
+
+.contenedor-derecha h1{
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+/*Estilso de mi formulario*/
+.contenedor-derecha .formulario{
+    background-color: rgb(244, 244, 244);
+
+}
+.contenedor-derecha .formulario form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-derecha .formulario form .boton{
+    background-color: rgb(28, 28, 28);
+    color: white;
+    font-size: 1.5em;
+    transform: scaleY(1);
+    margin-top: 0.5rem;
+    border-radius: 0.9rem;
+}
+
+/*Linea horizontal*/
+
+.formulario input{
+    padding: 1.2rem;
+    border-radius: 0.5rem;
+    margin-bottom: 2.3rem;
+    background-color: rgb(238, 238, 238);
+    color: gray;
+    border: 0px solid gray;
+    transform: translateY(1);
+}
+
+
+
+/**/
+
+
+/*footer formulario*/
+.formulario-footer p{
+    display: inline-block;
+    
+}
+
+.formulario-footer{
+    display: flex; 
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+.formulario-footer .gris{
+    color: grey;
+}
+
+.formulario-footer .negro{
+    color: black;
+    margin-left: 0.5rem;
+}
